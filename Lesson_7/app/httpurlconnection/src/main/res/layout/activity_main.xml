@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/tvIp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="IP: -" />
+    <TextView android:id="@+id/tvCountry" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Страна: -" />
+    <TextView android:id="@+id/tvRegion" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Регион: -" />
+    <TextView android:id="@+id/tvCity" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Город: -" />
+    <TextView android:id="@+id/tvLat" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Широта: -" />
+    <TextView android:id="@+id/tvLon" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Долгота: -" />
+    <TextView android:id="@+id/tvTemp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Температура: -" />
+    <TextView android:id="@+id/tvWind" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ветер: -" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Загрузить" />
+</LinearLayout>
